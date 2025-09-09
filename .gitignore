@@ -1,0 +1,9 @@
+# Ignore virtual environments
+venv/
+.venv/
+anti_india_detector_env/
+__pycache__/
+
+# Ignore system files
+*.pyc
+.DS_Store

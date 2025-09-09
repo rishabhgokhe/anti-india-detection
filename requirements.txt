@@ -1,0 +1,24 @@
+# Core application and data handling
+streamlit
+pandas
+numpy
+
+# Data visualization
+plotly
+networkx
+
+# Machine Learning and NLP
+scikit-learn
+transformers
+torch
+sentencepiece # Often a dependency for transformers models
+
+# Social Media APIs
+tweepy
+praw
+
+# High-performance similarity search (optional, but used in the code)
+faiss-cpu # Use 'faiss-gpu' for CUDA-enabled hardware
+
+# For reading Excel files (.xlsx)
+openpyxl
