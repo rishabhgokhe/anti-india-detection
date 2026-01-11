@@ -1,33 +1,82 @@
-# Anti-India Detection System
+# 🛡️ Anti-India Detection System
 
 ## Overview
 
-The Anti-India Detection System is a project aimed at identifying and flagging content that contains anti-India sentiment across digital platforms. It utilizes Natural Language Processing (NLP) and machine learning techniques to analyze and detect potentially harmful or sensitive content efficiently.
+The **Anti-India Detection System** is an intelligent cyber defense solution developed during the **National CyberShield Hackathon 2025**, organized by the **Madhya Pradesh Police** under the **Cybercrime Investigation & Intelligence Summit (CIIS 2025)**.
 
-## Key Features
+Out of **750+ teams across India**, **Team Multi Threads** secured a position in the **Top 10 nationwide**, presenting the solution at **SGSITS, Indore**.
 
-- **Automated Content Scanning**: Analyzes text data for anti-India sentiment using advanced algorithms.
-- **Customizable Detection**: Fine-tune detection parameters for different platforms and sources.
-- **Reporting & Dashboard**: Provides actionable reports and an interactive dashboard for monitoring flagged content.
-- **Extensible Design**: Easily integrates additional data sources and detection logic.
-- **Machine Learning Models**: Uses both supervised and unsupervised techniques for high accuracy.
+The system focuses on detecting and analyzing **anti-India digital campaigns**, propaganda narratives, and engagement patterns using **Natural Language Processing (NLP)** and **Machine Learning**.
 
-## Prototype
 
-A live prototype of the Anti-India Detection System is available for testing and demonstration.  
-**Prototype Link**: [Streamlit App](https://anti-india-detection-system.streamlit.app/)
 
-The prototype allows users to input textual data and visualize detection outputs. It demonstrates the core detection capabilities and reporting features in a user-friendly interface.
+## 🎯 Problem Statement
 
-## Getting Started
+**Anti-India Campaign Detection**
 
-### Installation
+Build a system capable of:
+- Identifying anti-India sentiment in online content  
+- Detecting viral propaganda narratives  
+- Analyzing engagement patterns and key influencers  
+- Supporting cyber investigation and digital intelligence efforts  
+
+
+## 🧠 Solution Approach
+
+The solution combines NLP techniques with machine learning models to efficiently flag sensitive or harmful content while remaining extensible for future cyber intelligence use cases.
+
+### Core Concepts:
+- Text preprocessing and tokenization  
+- Keyword-based and sentiment-based filtering  
+- Supervised and unsupervised ML models  
+- Engagement and virality analysis  
+- Dashboard-driven reporting  
+
+## ✨ Key Features
+
+- **🔍 Automated Content Scanning**  
+  Detects anti-India sentiment using NLP-based analysis.
+
+- **⚙️ Customizable Detection Logic**  
+  Adjustable thresholds and keywords for different platforms.
+
+- **📊 Reporting & Dashboard**  
+  Visual insights for flagged content and trends.
+
+- **🧩 Extensible Architecture**  
+  Easily integrates new data sources and detection logic.
+
+- **🤖 Machine Learning Powered**  
+  Uses supervised and unsupervised models for higher accuracy.
+
+---
+
+## 🖥️ Live Prototype
+
+A functional prototype built using **Streamlit** is available:
+
+🔗 **Prototype Link:**  
+https://anti-india-detection.streamlit.app/
+
+The prototype allows users to input text and visualize detection outputs in real time.
+
+## 🛠️ Tech Stack
+
+- Python  
+- Natural Language Processing (NLP)  
+- Machine Learning  
+- Streamlit  
+- Data Visualization Libraries  
+
+## 📦 Getting Started
+
+### 🔧 Installation
 
 1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/Om-ingle/anti-india-detection-system.git
-   cd anti-india-detection-system
-   ```
+```bash
+git clone https://github.com/rishabhgokhe/anti-india-detection.git
+cd anti-india-detection
+```
 
 2. **Install dependencies:**
    ```bash
@@ -35,7 +84,7 @@ The prototype allows users to input textual data and visualize detection outputs
    ```
 
 3. **Configure settings:**
-   - Update configuration files as needed for your sources and detection preferences.
+Update configuration files as needed for your sources and detection preferences.
 
 ### Usage
 
@@ -45,29 +94,23 @@ The prototype allows users to input textual data and visualize detection outputs
    ```
 
 2. **Interact with the prototype:**
-   - Visit the [Streamlit App](https://anti-india-detection-system.streamlit.app/) to test detection interactively.
+   - Visit the [Streamlit App](https://anti-india-detection.streamlit.app/) to test detection interactively.
 
-## Documentation
+## 🏆 Hackathon Recognition
 
-For more detailed information about the system's design, features, and usage, please refer to the official documentation:  
-[Google Doc](https://docs.google.com/document/d/1xSP-xI4y7kyBep_N9p_OTlcZzKsCYHVkkjPPEJbeq_k/edit?tab=t.0)
+- **Event:** National CyberShield Hackathon 2025  
+- **Organizer:** Madhya Pradesh Police  
+- **Summit:** Cybercrime Investigation & Intelligence Summit (CIIS 2025)  
+- **Achievement:** 🏅 Top 10 Teams Nationwide (750+ teams)
 
-## Contributing
 
-Contributions are welcome! Please open issues or submit pull requests to propose improvements or new features.
+## Team Members
 
-1. Fork the repository.
-2. Create your feature branch (`git checkout -b feature-name`).
-3. Commit your changes (`git commit -am 'Add new feature'`).
-4. Push to the branch (`git push origin feature-name`).
-5. Open a Pull Request.
+**Team Name:** Multi Threads
 
-## License
+- **Om Ingle**  
+- **Divesh Kshirsagar**  
+- **Himanshi Choubal**  
 
-This project is licensed under the [MIT License](LICENSE).
-
-## Contact
-
-Questions or suggestions? Reach out to [Om-ingle](https://github.com/Om-ingle).
-
----
+## Current Status
+Modularizing and making optimization improvement in the project by [Rishabh Gokhe](https://github.com/rishabhgokhe)
